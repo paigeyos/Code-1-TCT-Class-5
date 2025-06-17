@@ -1,0 +1,283 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 15,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2016,
+            "display_year": "2025 r/thespinroom Class 5 Election",
+            "summary": "After a chaotic coup commited by a corrupt mod, incumbent moderator One-Scallion decides not to run for reelection. Now that the Class 5 Seat is open, multiple members are fighting for the win.",
+            "image_url": "https://i.imgur.com/dyufRdb.jpeg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://i.imgur.com/widWxlq.jpeg",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
+        }
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "2025 r/thespinroom Class 5 Election"
+    }
+]
+
+campaignTrail_temp.credits = "Dotcomm"
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1001,
+        "fields": {
+            "first_name": "ProCookies",
+            "last_name": "",
+            "election": 20,
+            "party": "TSR Union",
+            "state": "N/A",
+            "priority": 1,
+            "description": "<p>A longtime member of r/thespinroom, ProCookies has ran for moderator multiple times, but has not seen great results each time. This is their shot to win, if ever.</p>",
+            "color_hex": "#1152a7",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/FkcTn3O.png",
+            "electoral_victory_message": "Good job! You have been elected to the r/thespinroom Moderator Council! Now get to work, because this place has some fixing.",
+            "electoral_loss_message": "You have been defeated. Sucks.",
+            "no_electoral_majority_message": "Uhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh",
+            "description_as_running_mate": "<p>A longtime member of r/thespinroom, ProCookies has ran for moderator multiple times, but has not seen great results each time. This is their shot to win, if ev</p>",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50001,
+        "fields": {
+            "first_name": "For Mod!",
+            "last_name": "",
+            "election": 20,
+            "party": "TSR Union",
+            "state": "N/A",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#175292",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/TH42Nw5.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50002,
+        "fields": {
+            "first_name": "MaxFlares",
+            "last_name": "",
+            "election": 20,
+            "party": "TSR Union",
+            "state": "N/A",
+            "priority": 1,
+            "description": "<p>MaxFlares is back. A moderator from the beginnings of TSR, he has flirted with the idea of running again for awhile now.</p>",
+            "color_hex": "#9a1818",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/d8eBXvM.jpeg",
+            "electoral_victory_message": "Good job! You have been elected to the r/thespinroom Moderator Council! Now get to work, because this place has some fixing.",
+            "electoral_loss_message": "You have been defeated. Sucks.",
+            "no_electoral_majority_message": "UHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50004,
+        "fields": {
+            "first_name": "CapableStandard",
+            "last_name": "",
+            "election": 20,
+            "party": "Anti-Establishment",
+            "state": "N/A",
+            "priority": 1,
+            "description": "<p>CapableStandard is an odd case. He is running on purely being schizo, and is backed by the equally schzio Halogram. Anti-Mod, Anti-Establishment, Anti-Everything.</p>",
+            "color_hex": "#ffae00",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/revBr37.jpeg",
+            "electoral_victory_message": "Good job! You have been elected to the r/thespinroom Moderator Council! You went against all the odds and flipped a Mod seat.",
+            "electoral_loss_message": "You have been defeated, but this wasn't a complete suprise.",
+            "no_electoral_majority_message": "UhHhhhHHHHhHHHHhHhhhhH",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50000,
+        "fields": {
+            "first_name": "Wiptes",
+            "last_name": "",
+            "election": 20,
+            "party": "Democratic Fumo Union",
+            "state": "N/A",
+            "priority": 1,
+            "description": "<p>Wiptes has ran in multiple Mod Elections now, and has barely campaigned in any of them. If they play their cards well here, this could be a great shot at winning a mod seat.</p>",
+            "color_hex": "#1fa83a",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://styles.redditmedia.com/t5_fuqv3/styles/profileIcon_205a6xm2pw6f1.png?width=256&height=256&frame=1&auto=webp&crop=&s=2d535d666beb9fec010be1701ced98a732ca6a19",
+            "electoral_victory_message": "Good job! You have been elected to the r/thespinroom Moderator Council! You went against all the odds and flipped a Mod seat.",
+            "electoral_loss_message": "You have been defeated. Sucks.",
+            "no_electoral_majority_message": "UhUhuhUhUHUHUHUhUHUHHU",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50001,
+        "fields": {
+            "first_name": "BarelyCentrist",
+            "last_name": "",
+            "election": 20,
+            "party": "Radical",
+            "state": "N/A",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#961fc1",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.redd.it/snoovatar/avatars/e83d2530-ffa5-4e44-bcc8-b02f0c993e32.png",
+            "electoral_victory_message": "Actual insanity. How.",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50002,
+        "fields": {
+            "first_name": "",
+            "last_name": "SeaAfternoon",
+            "election": 20,
+            "party": "Tilden Truther",
+            "state": "N/A",
+            "priority": 1,
+            "description": "<p>Tilden Glazer</p>",
+            "color_hex": "#1fa8a6",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://styles.redditmedia.com/t5_c8asio/styles/profileIcon_ox4qixeni9ve1.jpeg?width=256&height=256&frame=1&auto=webp&crop=&s=174fed41beb07c9b59e219b57edfa691d9dfb377",
+            "electoral_victory_message": "Insane upset.",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = []
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            1001,
+            50002,
+            50004,
+            50000,
+            50001,
+            50002
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            1001,
+            50002,
+            50004,
+            50000,
+            50001,
+            50002
+        ]
+    }
+]
+
+jet_data = {
+    "headerColor": "#700016",
+    "windowColor": "#266f9c",
+    "containerColor": "#000000",
+    "innerWindowColor": "#1d6081",
+    "bannerImageUrl": "https://i.imgur.com/2lyZOaP.png",
+    "backgroundImageUrl": "https://i.imgur.com/TH42Nw5.png",
+    "endingTextColor": "#000000",
+    "customQuote": "\"We need racial purity in the US truthfully\" - DefinitelyCanadian3",
+    "gameTitle": "THE SPINNING TRAIL"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>THE SPINNING TRAIL</h2><font id="wittyquote" size="4" color="white"><em>"We need racial purity in the US truthfully" - DefinitelyCanadian3</em></font>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#700016";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#266f9c";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#000000";
+
+document.getElementById("header").src = "https://i.imgur.com/2lyZOaP.png";
+
+document.body.background = "https://i.imgur.com/TH42Nw5.png";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#1d6081!important;}</style>";
+
+//#endcode
